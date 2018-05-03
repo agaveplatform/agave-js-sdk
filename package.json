@@ -1,0 +1,33 @@
+{
+  "name": "agave-js-sdk",
+  "version": "0.1.0",
+  "description": "Official javascript client library for the Agave Platform",
+  "author": {
+    "name": "Rion Dooley",
+    "email": "deardooley@gmail.com"
+  },
+  "repository": "https://github.com/agaveplatform/agave-js-sdk",
+  "homepage": "https://github.com/agaveplatform/agave-js-sdk",
+  "license": "BSD 3-Clause",
+  "keywords": [
+    "agave",
+    "php",
+    "sdk",
+    "api"
+  ],
+  "main": "src/Agave/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "superagent": "3.5.2"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}

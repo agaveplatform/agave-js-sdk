@@ -1,0 +1,20 @@
+{
+  "sortParamsByRequiredFlag": true,
+  "ensureUniqueParams": true,
+  "sourceFolder": "src",
+  "apiPackage" : "API",
+  "modelPackage": "Model",
+  "modelName": "agaveplatform",
+  "projectName": "agave-js-sdk",
+  "projectVersion": "0.1.0",
+  "licenseName": "BSD 3-Clause",
+  "usePromises": true,
+  "emitModelMethods": false,
+  "emitJSDoc": true,
+  "useInheritance": true,
+  "hideGenerationTimestamp": true,
+  "useES6": true
+}
+
+
+
